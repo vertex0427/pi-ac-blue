@@ -4,6 +4,14 @@
 	"description": "A cool cyan-on-navy dark theme for Pi, inspired by tactical mission-briefing interfaces.",
 	"license": "MIT",
 	"author": "shihaoming",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vertex0427/pi-ac-blue.git"
+	},
+	"homepage": "https://github.com/vertex0427/pi-ac-blue#readme",
+	"bugs": {
+		"url": "https://github.com/vertex0427/pi-ac-blue/issues"
+	},
 	"keywords": [
 		"pi-package",
 		"pi-theme",
