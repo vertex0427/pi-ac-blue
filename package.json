@@ -1,0 +1,34 @@
+{
+	"name": "pi-ac-blue",
+	"version": "0.1.0",
+	"description": "A cool cyan-on-navy dark theme for Pi, inspired by tactical mission-briefing interfaces.",
+	"license": "MIT",
+	"author": "shihaoming",
+	"keywords": [
+		"pi-package",
+		"pi-theme",
+		"theme",
+		"dark",
+		"cyan",
+		"navy"
+	],
+	"files": [
+		"themes",
+		"README.md",
+		"LICENSE"
+	],
+	"pi": {
+		"themes": [
+			"./themes/*.json"
+		]
+	},
+	"scripts": {
+		"pack:check": "npm pack --dry-run"
+	},
+	"engines": {
+		"node": ">=22"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
